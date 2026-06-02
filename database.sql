@@ -29,7 +29,7 @@ CREATE TABLE `slides` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 
-INSERT INTO tabs (id, title, icon, sort_order, status) VALUES
+INSERT INTO tabs (id, title, icon, sort_order, status, created_at) VALUES
 (1, 'Learning', 'assets/images/DL-learning.svg', 1, 1, '2026-05-31 20:25:54'),
 (2, 'Technology', 'assets/images/DL-technology.svg', 2, 1, '2026-05-31 20:25:54'),
 (3, 'Communication', 'assets/images/DL-communication.svg', 3, 1, '2026-05-31 20:25:54');
